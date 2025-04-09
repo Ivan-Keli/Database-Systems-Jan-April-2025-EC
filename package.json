@@ -1,0 +1,22 @@
+{
+    "name": "education-resource-distribution",
+    "version": "1.0.0",
+    "description": "Database system for educational resource distribution",
+    "main": "index.js",
+    "scripts": {
+      "client": "cd client && npm start",
+      "server": "cd server && npm run dev",
+      "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "keywords": [
+      "education",
+      "distribution",
+      "database"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "concurrently": "^8.2.0"
+    }
+  }
+  
