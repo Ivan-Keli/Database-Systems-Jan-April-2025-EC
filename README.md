@@ -58,7 +58,7 @@ psql -U postgres -d education_db -f database/database-schema.sql
 
 5. Start the development server:
 
-Open cmd or terminal and move to directory
+Open your command prompt/cmd and move to the directory
 cd C:\Projects\Education>
 
 Run
